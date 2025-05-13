@@ -841,3 +841,13 @@ header{
     line-height: 1.1rem;
   }
 }
+
+@media (max-width: 365px){
+  .home{
+    overflow: hidden;
+  }
+  header{
+    width: 365px;
+    overflow: hidden;
+  }
+}
